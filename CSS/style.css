@@ -1,9 +1,13 @@
 .Topic{
-    background-color: rgb(187, 136, 136);
+    background-color: hsl( 0 91% 71% );
     text-align: center;
+    border-radius: var(--rounded-box,1rem);
+    font-family: Monospace;
 }
 
 .RTopics{
     background-color: rgb(60, 125, 128);
     text-align: center;
+    font-family: Monospace;
+    border-radius: var(--rounded-box,1rem);
 }
