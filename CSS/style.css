@@ -1,9 +1,25 @@
-
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 body {
     background-color: #DBF9FC;
-    }
 
+}
+.directions {
+    border-radius: var(--rounded-box,1rem);
+    background-color: hsl(0, 36%, 85%);
+}
+
+.Ingre {
+    background-color: rgb(221, 163, 163);
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    border-radius: var(--rounded-box,1rem);
+  }
 .Topic{
     background-color: hsl( 0 91% 71% );
     text-align: center;
@@ -16,4 +32,8 @@ body {
     text-align: center;
     font-family: Monospace;
     border-radius: var(--rounded-box,1rem);
+}
+
+.centering{
+    text-align: center;
 }
