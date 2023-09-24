@@ -1,7 +1,13 @@
+* {
+    border: 1px solid red;
+    box-sizing:border-box; /*This makes the height and width of all the elements the actual sizes, no need of mental calculation.*/ 
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
   }
 
 body {
@@ -11,6 +17,7 @@ body {
 .directions {
     border-radius: var(--rounded-box,1rem);
     background-color: hsl(0, 36%, 85%);
+    margin: 10px;
 }
 
 .Ingre {
@@ -19,6 +26,7 @@ body {
     font-size: 18px;
     text-align: left;
     border-radius: var(--rounded-box,1rem);
+    margin: 10px;
   }
 .Topic{
     background-color: hsl( 0 91% 71% );
@@ -32,6 +40,7 @@ body {
     text-align: center;
     font-family: Monospace;
     border-radius: var(--rounded-box,1rem);
+    margin: 20px; /* margin collapses between two elements*/
 }
 
 .centering{
