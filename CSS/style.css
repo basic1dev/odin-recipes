@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    border: 1px solid rgb(241, 18, 18);
     box-sizing:border-box; /*This makes the height and width of all the elements the actual sizes, no need of mental calculation.*/ 
 }
 
